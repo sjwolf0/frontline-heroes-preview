@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Contact | Frontline Heroes Foundation</title>
+  <meta name="description" content="Contact Frontline Heroes Foundation — general inquiries, donor and major gift questions, grant application questions, and media or partnership requests.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-page="contact">
+
+<header id="site-header" class="site-header"></header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="page-hero">
+    <div class="container">
+      <span style="display:inline-block;font-size:0.78rem;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:var(--sand);margin-bottom:10px">Contact</span>
+      <h1>We&rsquo;re easy to reach.</h1>
+      <p>Whether you&rsquo;re a donor, a first responder, a family member, or a potential partner &mdash; pick the form that fits and we&rsquo;ll get back to you.</p>
+    </div>
+  </section>
+
+  <!-- CONTACT INFO -->
+  <section class="section section--gray" style="padding:40px 0">
+    <div class="container">
+      <div class="grid grid-3">
+        <div class="card"><h3>Email</h3><p>[email placeholder — e.g., hello@frontlineheroesfoundation.org]</p></div>
+        <div class="card"><h3>Phone</h3><p>[phone placeholder]</p></div>
+        <div class="card"><h3>Mail</h3><p>[mailing address placeholder], Arizona</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FORM -->
+  <section class="section" id="donor">
+    <div class="container" style="max-width:860px">
+
+      <div class="form-success" data-success-for="contact-form" role="status">
+        <h3>Thank you &mdash; your message has been received.</h3>
+        <p>Frontline Heroes Foundation will respond as soon as possible. If your message relates to a grant application, please do not send medical records unless requested through a secure process.</p>
+      </div>
+
+      <form class="form-card" id="contact-form" data-validate>
+        <!-- PLACEHOLDER: wire this form to a secure backend/API endpoint before launch. No data is transmitted in this build. -->
+        <div class="form-error-summary" role="alert"></div>
+
+        <h2 style="margin-bottom:4px">Send us a message</h2>
+        <p style="color:var(--gray-mid);font-size:0.93rem;margin-bottom:10px">Fields marked <span class="req">*</span> are required.</p>
+
+        <div class="form-grid">
+          <div class="field">
+            <label for="c-name">Full name <span class="req" aria-hidden="true">*</span></label>
+            <input type="text" id="c-name" name="name" autocomplete="name" required>
+            <p class="error-msg">Please enter your name.</p>
+          </div>
+          <div class="field">
+            <label for="c-email">Email <span class="req" aria-hidden="true">*</span></label>
+            <input type="email" id="c-email" name="email" autocomplete="email" required>
+            <p class="error-msg">Please enter a valid email address.</p>
+          </div>
+          <div class="field">
+            <label for="c-phone">Phone (optional)</label>
+            <input type="tel" id="c-phone" name="phone" autocomplete="tel">
+          </div>
+          <div class="field">
+            <label for="c-type">What is this about? <span class="req" aria-hidden="true">*</span></label>
+            <select id="c-type" name="inquiryType" required>
+              <option value="">Select one&hellip;</option>
+              <option>General inquiry</option>
+              <option>Donor inquiry / major gift</option>
+              <option>Grant or application question</option>
+              <option>Media or partnership inquiry</option>
+            </select>
+            <p class="error-msg">Please choose an inquiry type.</p>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="c-message">Your message <span class="req" aria-hidden="true">*</span></label>
+          <p class="hint">Please do not include medical records, diagnosis details, Social Security numbers, or other sensitive personal information.</p>
+          <textarea id="c-message" name="message" required></textarea>
+          <p class="error-msg">Please enter your message.</p>
+        </div>
+
+        <div style="margin-top:22px">
+          <button type="submit" class="btn btn--primary btn--lg">Send Message</button>
+        </div>
+      </form>
+
+      <div class="note" style="margin-top:26px">
+        <strong>Considering a major gift?</strong> Community Supporter $5,000 &middot; Frontline Advocate $10,000 &middot; Early Detection Champion $25,000 &middot; Founding Partner $50,000+. Choose &ldquo;Donor inquiry / major gift&rdquo; above and we&rsquo;ll follow up personally. Major gifts grow the pooled Screening Fund and are not tied to a specific station, department, or named applicant.
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section class="cta-band">
+    <div class="container">
+      <h2>Prefer to act right now?</h2>
+      <p>The fastest way to help a first responder get earlier answers is to help build the fund.</p>
+      <div class="btn-row">
+        <a class="btn btn--light btn--lg" href="donate.html">Donate to the Screening Fund</a>
+        <a class="btn btn--outline-light btn--lg" href="apply.html">Apply for a Screening Grant</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer id="site-footer" class="site-footer"></footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

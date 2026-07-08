@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Apply for a First Responder Screening Grant | Frontline Heroes Foundation</title>
+  <meta name="description" content="Eligible Arizona first responders can apply for grant support toward physician-guided early cancer detection, screening access, and care navigation.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- No tracking pixels on this page: it relates to health. Do not add analytics here without privacy/legal review. -->
+</head>
+<body data-page="apply">
+
+<header id="site-header" class="site-header"></header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="page-hero">
+    <div class="container">
+      <span style="display:inline-block;font-size:0.78rem;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:var(--sand);margin-bottom:10px">For first responders</span>
+      <h1>Apply for a Screening Grant</h1>
+      <p>Frontline Heroes Foundation helps eligible first responders apply for grant support toward physician-guided early cancer detection, screening access, education, and care navigation.</p>
+      <p>You served. Asking for support is not a weakness &mdash; it&rsquo;s the same protectiveness you&rsquo;ve shown everyone else, pointed at yourself for once.</p>
+    </div>
+  </section>
+
+  <!-- WHAT TO EXPECT -->
+  <section class="section section--gray" style="padding:44px 0">
+    <div class="container">
+      <div class="grid grid-3">
+        <div class="card">
+          <div class="card-icon" aria-hidden="true">&#128274;</div>
+          <h3>Private &amp; respectful</h3>
+          <p>The form is short and privacy-conscious. We never ask for medical records, diagnosis details, Social Security numbers, or insurance IDs here.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon" aria-hidden="true">&#128203;</div>
+          <h3>Simple review</h3>
+          <p>Applications are reviewed on eligibility, service history, exposure risk, access barriers, program criteria, clinical appropriateness, and available funds.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon" aria-hidden="true">&#129309;</div>
+          <h3>Guided next steps</h3>
+          <p>If approved, we help you understand the process and connect with appropriate healthcare resources. Support depends on available funding.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- APPLICATION FORM -->
+  <section class="section" id="application">
+    <div class="container" style="max-width:860px">
+
+      <div class="note note--red" style="margin-bottom:26px">
+        <strong>Before you begin:</strong> Please do not submit detailed medical records, diagnosis information, Social Security numbers, insurance IDs, or sensitive medical documents through this public form. Frontline Heroes Foundation is not a medical provider.
+      </div>
+
+      <div class="form-success" data-success-for="grant-form" role="status">
+        <h3>Thank you. Your application has been received.</h3>
+        <p>Frontline Heroes Foundation will review your submission and contact you about possible next steps. Please do not send medical records unless requested through a secure process.</p>
+      </div>
+
+      <form class="form-card" id="grant-form" data-validate>
+        <!-- PLACEHOLDER: wire this form to a secure backend/API endpoint before launch. No data is transmitted in this build. -->
+        <div class="form-error-summary" role="alert"></div>
+
+        <h2 style="margin-bottom:4px">Screening Grant Application</h2>
+        <p style="color:var(--gray-mid);font-size:0.93rem;margin-bottom:10px">Fields marked <span class="req">*</span> are required.</p>
+
+        <div class="form-section-title">Basic information</div>
+        <div class="form-grid">
+          <div class="field">
+            <label for="a-name">Full name <span class="req" aria-hidden="true">*</span></label>
+            <input type="text" id="a-name" name="fullName" autocomplete="name" required>
+            <p class="error-msg">Please enter your full name.</p>
+          </div>
+          <div class="field">
+            <label for="a-email">Email <span class="req" aria-hidden="true">*</span></label>
+            <input type="email" id="a-email" name="email" autocomplete="email" required>
+            <p class="error-msg">Please enter a valid email address.</p>
+          </div>
+          <div class="field">
+            <label for="a-phone">Phone <span class="req" aria-hidden="true">*</span></label>
+            <input type="tel" id="a-phone" name="phone" autocomplete="tel" required>
+            <p class="error-msg">Please enter a phone number.</p>
+          </div>
+          <div class="field">
+            <label for="a-city">City <span class="req" aria-hidden="true">*</span></label>
+            <input type="text" id="a-city" name="city" autocomplete="address-level2" required>
+            <p class="error-msg">Please enter your city.</p>
+          </div>
+          <div class="field">
+            <label for="a-state">State <span class="req" aria-hidden="true">*</span></label>
+            <input type="text" id="a-state" name="state" value="Arizona" autocomplete="address-level1" required>
+            <p class="error-msg">Please enter your state.</p>
+          </div>
+          <div class="field">
+            <label for="a-az">Are you a current or former Arizona first responder? <span class="req" aria-hidden="true">*</span></label>
+            <select id="a-az" name="azResponder" required>
+              <option value="">Select one&hellip;</option>
+              <option>Yes</option>
+              <option>No</option>
+            </select>
+            <p class="error-msg">Please select an answer.</p>
+          </div>
+          <div class="field">
+            <label for="a-status">Service status <span class="req" aria-hidden="true">*</span></label>
+            <select id="a-status" name="serviceStatus" required>
+              <option value="">Select one&hellip;</option>
+              <option>Active</option>
+              <option>Retired</option>
+              <option>Volunteer</option>
+              <option>Reserve</option>
+              <option>Other</option>
+            </select>
+            <p class="error-msg">Please select your service status.</p>
+          </div>
+        </div>
+
+        <div class="form-section-title">Service information</div>
+        <div class="form-grid">
+          <div class="field">
+            <label for="a-role">First responder role <span class="req" aria-hidden="true">*</span></label>
+            <input type="text" id="a-role" name="role" placeholder="e.g., Engineer, Patrol Officer, Paramedic" required>
+            <p class="error-msg">Please enter your role.</p>
+          </div>
+          <div class="field">
+            <label for="a-agency">Agency or department <span class="req" aria-hidden="true">*</span></label>
+            <input type="text" id="a-agency" name="agency" required>
+            <p class="error-msg">Please enter your agency or department.</p>
+          </div>
+          <div class="field">
+            <label for="a-years">Years of service <span class="req" aria-hidden="true">*</span></label>
+            <input type="number" id="a-years" name="yearsOfService" min="0" max="60" inputmode="numeric" required>
+            <p class="error-msg">Please enter your years of service.</p>
+          </div>
+          <div class="field">
+            <label for="a-category">Service category <span class="req" aria-hidden="true">*</span></label>
+            <select id="a-category" name="serviceCategory" required>
+              <option value="">Select one&hellip;</option>
+              <option>Firefighter</option>
+              <option>Wildland firefighter</option>
+              <option>Law enforcement</option>
+              <option>Corrections</option>
+              <option>EMS</option>
+              <option>EMT</option>
+              <option>Paramedic</option>
+              <option>Fire investigator</option>
+              <option>Dispatcher/support role</option>
+              <option>Retired first responder</option>
+              <option>Other</option>
+            </select>
+            <p class="error-msg">Please select a service category.</p>
+          </div>
+        </div>
+
+        <div class="form-section-title">Grant request</div>
+        <div class="field">
+          <label for="a-support">What type of support are you seeking? <span class="req" aria-hidden="true">*</span></label>
+          <select id="a-support" name="supportType" required>
+            <option value="">Select one&hellip;</option>
+            <option>Cancer risk assessment</option>
+            <option>Screening support</option>
+            <option>Prevention consult</option>
+            <option>Dermatology screening support</option>
+            <option>Colon cancer screening support</option>
+            <option>Prostate screening discussion/support</option>
+            <option>Lung cancer screening referral support when clinically indicated</option>
+            <option>Follow-up navigation</option>
+            <option>Not sure / need guidance</option>
+          </select>
+          <p class="error-msg">Please select the type of support you are seeking.</p>
+        </div>
+        <div class="field">
+          <label for="a-story">Briefly describe your service history and why you are applying. <span class="req" aria-hidden="true">*</span></label>
+          <p class="hint">A few sentences is plenty. Please do not include medical records or diagnosis details.</p>
+          <textarea id="a-story" name="story" required></textarea>
+          <p class="error-msg">Please tell us briefly about your service and why you are applying.</p>
+        </div>
+
+        <div class="form-section-title">Acknowledgments</div>
+        <div class="check-field">
+          <input type="checkbox" id="a-ack1" required>
+          <label for="a-ack1">I understand this form should not include detailed medical records, diagnosis information, Social Security number, insurance ID, or sensitive medical documents. <span class="req" aria-hidden="true">*</span></label>
+        </div>
+        <div class="check-field">
+          <input type="checkbox" id="a-ack2" required>
+          <label for="a-ack2">I understand Frontline Heroes Foundation is not a medical provider and does not diagnose, treat, or prescribe medical care. <span class="req" aria-hidden="true">*</span></label>
+        </div>
+        <div class="check-field">
+          <input type="checkbox" id="a-ack3" required>
+          <label for="a-ack3">I understand screening decisions should be made with a licensed healthcare professional. <span class="req" aria-hidden="true">*</span></label>
+        </div>
+        <div class="check-field">
+          <input type="checkbox" id="a-ack4" required>
+          <label for="a-ack4">I consent to be contacted by Frontline Heroes Foundation about my application. <span class="req" aria-hidden="true">*</span></label>
+        </div>
+
+        <div style="margin-top:26px">
+          <button type="submit" class="btn btn--primary btn--lg">Submit Application</button>
+          <p style="font-size:0.85rem;color:var(--gray-mid);margin-top:12px">Applications are reviewed as funding allows. Submitting an application does not guarantee a grant.</p>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- NOMINATE -->
+  <section class="section section--gray" id="nominate">
+    <div class="container" style="max-width:860px">
+      <div class="section-head">
+        <span class="kicker">Secondary option</span>
+        <h2>Know someone who may need help?</h2>
+        <p>You may nominate a first responder, but the nominee must consent before any application moves forward. Please do not include private medical information in this form.</p>
+      </div>
+
+      <div class="form-success" data-success-for="nominate-form" role="status">
+        <h3>Thank you for looking out for a fellow responder.</h3>
+        <p>We&rsquo;ve received your nomination. Frontline Heroes Foundation will reach out, and no application will move forward without the nominee&rsquo;s consent.</p>
+      </div>
+
+      <form class="form-card" id="nominate-form" data-validate>
+        <!-- PLACEHOLDER: wire this form to a secure backend/API endpoint before launch. No data is transmitted in this build. -->
+        <div class="form-error-summary" role="alert"></div>
+
+        <div class="form-section-title">About you</div>
+        <div class="form-grid">
+          <div class="field">
+            <label for="n-name">Your name <span class="req" aria-hidden="true">*</span></label>
+            <input type="text" id="n-name" name="nominatorName" autocomplete="name" required>
+            <p class="error-msg">Please enter your name.</p>
+          </div>
+          <div class="field">
+            <label for="n-email">Your email <span class="req" aria-hidden="true">*</span></label>
+            <input type="email" id="n-email" name="nominatorEmail" autocomplete="email" required>
+            <p class="error-msg">Please enter a valid email address.</p>
+          </div>
+          <div class="field">
+            <label for="n-phone">Your phone <span class="req" aria-hidden="true">*</span></label>
+            <input type="tel" id="n-phone" name="nominatorPhone" autocomplete="tel" required>
+            <p class="error-msg">Please enter a phone number.</p>
+          </div>
+          <div class="field">
+            <label for="n-relationship">Relationship to nominee <span class="req" aria-hidden="true">*</span></label>
+            <input type="text" id="n-relationship" name="relationship" placeholder="e.g., spouse, crewmate, friend" required>
+            <p class="error-msg">Please describe your relationship to the nominee.</p>
+          </div>
+        </div>
+
+        <div class="form-section-title">About the nominee</div>
+        <div class="form-grid">
+          <div class="field">
+            <label for="n-nominee">Nominee name <span class="req" aria-hidden="true">*</span></label>
+            <input type="text" id="n-nominee" name="nomineeName" required>
+            <p class="error-msg">Please enter the nominee&rsquo;s name.</p>
+          </div>
+          <div class="field">
+            <label for="n-role">Nominee role <span class="req" aria-hidden="true">*</span></label>
+            <input type="text" id="n-role" name="nomineeRole" placeholder="e.g., Firefighter, Deputy, EMT" required>
+            <p class="error-msg">Please enter the nominee&rsquo;s role.</p>
+          </div>
+          <div class="field">
+            <label for="n-agency">Agency or department <span class="req" aria-hidden="true">*</span></label>
+            <input type="text" id="n-agency" name="nomineeAgency" required>
+            <p class="error-msg">Please enter the agency or department.</p>
+          </div>
+          <div class="field">
+            <label for="n-citystate">City / State <span class="req" aria-hidden="true">*</span></label>
+            <input type="text" id="n-citystate" name="nomineeCityState" placeholder="e.g., Phoenix, AZ" required>
+            <p class="error-msg">Please enter the nominee&rsquo;s city and state.</p>
+          </div>
+        </div>
+        <div class="field">
+          <label for="n-reason">Short reason for nomination <span class="req" aria-hidden="true">*</span></label>
+          <p class="hint">Please do not include private medical information.</p>
+          <textarea id="n-reason" name="reason" required></textarea>
+          <p class="error-msg">Please share a brief reason for the nomination.</p>
+        </div>
+
+        <div class="check-field">
+          <input type="checkbox" id="n-ack1" required>
+          <label for="n-ack1">I understand I should not include private medical information. <span class="req" aria-hidden="true">*</span></label>
+        </div>
+        <div class="check-field">
+          <input type="checkbox" id="n-ack2" required>
+          <label for="n-ack2">I understand the nominee must consent before an application moves forward. <span class="req" aria-hidden="true">*</span></label>
+        </div>
+
+        <div style="margin-top:26px">
+          <button type="submit" class="btn btn--secondary btn--lg">Submit Nomination</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section class="cta-band">
+    <div class="container">
+      <h2>Not applying &mdash; but want to help?</h2>
+      <p>Your donation keeps the First Responder Early Detection Fund ready for the responders who do apply.</p>
+      <div class="btn-row">
+        <a class="btn btn--light btn--lg" href="donate.html">Donate to the Screening Fund</a>
+        <a class="btn btn--outline-light btn--lg" href="how-it-works.html">See How It Works</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer id="site-footer" class="site-footer"></footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
