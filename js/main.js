@@ -52,7 +52,7 @@
       "</div>" +
       '<nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation">' +
       "  <ul>" + links +
-      '    <li><a class="btn btn--primary" href="donate.html">Donate to the Screening Fund</a></li>' +
+      '    <li><a class="btn btn--primary" href="donate.html">Fund an MRI</a></li>' +
       "  </ul>" +
       "</nav>";
 
@@ -132,7 +132,7 @@
     if (PAGE === "donate") return;
     var bar = document.createElement("div");
     bar.className = "sticky-donate";
-    bar.innerHTML = '<a class="btn btn--primary" href="donate.html">Donate to the Screening Fund</a>';
+    bar.innerHTML = '<a class="btn btn--primary" href="donate.html">Fund an MRI</a>';
     document.body.appendChild(bar);
   }
 
