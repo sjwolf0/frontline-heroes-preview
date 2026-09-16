@@ -76,7 +76,7 @@
       '      <a class="brand" href="index.html"><span class="brand-mark">' + SHIELD_SVG + "</span>" +
       '      <span class="brand-name">Frontline Heroes<br>Foundation<small>Arizona-based nonprofit</small></span></a>' +
       "      <p>Funding full-body MRI screening for first responders through a donor-funded grant program, so cancer can be caught earlier.</p>" +
-      "      <p>EIN: [EIN placeholder — pending]</p>" +
+      "      <p>EIN: 42-3839014</p>" +
       '      <div class="footer-social" aria-label="Social media (coming soon)">' +
       '        <a href="#" aria-label="Facebook (placeholder)">FB</a>' +
       '        <a href="#" aria-label="Instagram (placeholder)">IG</a>' +
