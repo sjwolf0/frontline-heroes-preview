@@ -75,7 +75,7 @@
       '    <div class="footer-brand">' +
       '      <a class="brand" href="index.html"><span class="brand-mark">' + SHIELD_SVG + "</span>" +
       '      <span class="brand-name">Frontline Heroes<br>Foundation<small>Arizona-based nonprofit</small></span></a>' +
-      "      <p>Helping first responders access physician-guided early cancer detection, screening support, education, and care navigation through a donor-funded grant program.</p>" +
+      "      <p>Funding full-body MRI screening for first responders through a donor-funded grant program, so cancer can be caught earlier.</p>" +
       "      <p>EIN: [EIN placeholder — pending]</p>" +
       '      <div class="footer-social" aria-label="Social media (coming soon)">' +
       '        <a href="#" aria-label="Facebook (placeholder)">FB</a>' +
@@ -114,7 +114,7 @@
       "  </div>" +
       '  <div class="footer-disclaimers">' +
       "    <p><strong>Medical disclaimer:</strong> Information on this website is educational and is not medical advice. Frontline Heroes Foundation is not a medical provider and does not diagnose, treat, prescribe, or recommend specific medical care. Screening decisions should be made with a licensed healthcare professional.</p>" +
-      "    <p><strong>Donation disclosure:</strong> Donations support the First Responder Early Detection Fund and related program expenses. Unless otherwise stated in writing by the foundation, donations are pooled and may not be restricted to a specific responder, station, department, medical test, or provider.</p>" +
+      "    <p><strong>Donation disclosure:</strong> Donations support the First Responder MRI Fund and related program expenses. Unless otherwise stated in writing by the foundation, donations are pooled and may not be restricted to a specific responder, station, department, medical test, or provider.</p>" +
       "    <p><strong>Tax status:</strong> Frontline Heroes Foundation is an Arizona nonprofit organization. Tax-deductibility information will be updated once IRS recognition is confirmed.</p>" +
       '    <div class="footer-legal">' +
       '      <a href="#">Privacy Policy</a>' +

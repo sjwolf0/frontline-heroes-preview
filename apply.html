@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="noindex, nofollow">
-  <title>Apply for a First Responder Screening Grant | Frontline Heroes Foundation</title>
-  <meta name="description" content="Eligible Arizona first responders can apply for grant support toward physician-guided early cancer detection, screening access, and care navigation.">
+  <title>Apply for a Full-Body MRI Grant | Frontline Heroes Foundation</title>
+  <meta name="description" content="Eligible Arizona first responders can apply for a grant toward a full-body MRI screening — a single, radiation-free scan reviewed with a licensed physician.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;600;700;800&display=swap" rel="stylesheet">
@@ -22,8 +22,8 @@
   <section class="page-hero">
     <div class="container">
       <span style="display:inline-block;font-size:0.78rem;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:var(--sand);margin-bottom:10px">For first responders</span>
-      <h1>Apply for a Screening Grant</h1>
-      <p>Frontline Heroes Foundation helps eligible first responders apply for grant support toward physician-guided early cancer detection, screening access, education, and care navigation.</p>
+      <h1>Apply for a Full-Body MRI Grant</h1>
+      <p>Frontline Heroes Foundation helps eligible first responders apply for a grant toward a full-body MRI screening &mdash; a single, radiation-free scan, reviewed with a licensed physician, that can help catch cancer earlier.</p>
       <p>You served. Asking for support is not a weakness &mdash; it&rsquo;s the same protectiveness you&rsquo;ve shown everyone else, pointed at yourself for once.</p>
     </div>
   </section>
@@ -68,7 +68,7 @@
         <!-- PLACEHOLDER: wire this form to a secure backend/API endpoint before launch. No data is transmitted in this build. -->
         <div class="form-error-summary" role="alert"></div>
 
-        <h2 style="margin-bottom:4px">Screening Grant Application</h2>
+        <h2 style="margin-bottom:4px">Full-Body MRI Grant Application</h2>
         <p style="color:var(--gray-mid);font-size:0.93rem;margin-bottom:10px">Fields marked <span class="req">*</span> are required.</p>
 
         <div class="form-section-title">Basic information</div>
@@ -97,6 +97,11 @@
             <label for="a-state">State <span class="req" aria-hidden="true">*</span></label>
             <input type="text" id="a-state" name="state" value="Arizona" autocomplete="address-level1" required>
             <p class="error-msg">Please enter your state.</p>
+          </div>
+          <div class="field">
+            <label for="a-age">Age <span class="req" aria-hidden="true">*</span></label>
+            <input type="number" id="a-age" name="age" min="18" max="100" inputmode="numeric" required>
+            <p class="error-msg">Please enter your age.</p>
           </div>
           <div class="field">
             <label for="a-az">Are you a current or former Arizona first responder? <span class="req" aria-hidden="true">*</span></label>
@@ -158,22 +163,22 @@
           </div>
         </div>
 
-        <div class="form-section-title">Grant request</div>
-        <div class="field">
-          <label for="a-support">What type of support are you seeking? <span class="req" aria-hidden="true">*</span></label>
-          <select id="a-support" name="supportType" required>
-            <option value="">Select one&hellip;</option>
-            <option>Cancer risk assessment</option>
-            <option>Screening support</option>
-            <option>Prevention consult</option>
-            <option>Dermatology screening support</option>
-            <option>Colon cancer screening support</option>
-            <option>Prostate screening discussion/support</option>
-            <option>Lung cancer screening referral support when clinically indicated</option>
-            <option>Follow-up navigation</option>
-            <option>Not sure / need guidance</option>
-          </select>
-          <p class="error-msg">Please select the type of support you are seeking.</p>
+        <div class="form-section-title">Full-body MRI history</div>
+        <div class="form-grid">
+          <div class="field">
+            <label for="a-hadmri">Have you ever had a full-body MRI? <span class="req" aria-hidden="true">*</span></label>
+            <select id="a-hadmri" name="hadFullBodyMRI" required>
+              <option value="">Select one&hellip;</option>
+              <option>No, never</option>
+              <option>Yes</option>
+              <option>Not sure</option>
+            </select>
+            <p class="error-msg">Please select an answer.</p>
+          </div>
+          <div class="field">
+            <label for="a-mriwhen">If yes, approximately when? <span class="hint" style="font-weight:400;display:inline">(optional)</span></label>
+            <input type="text" id="a-mriwhen" name="fullBodyMRIWhen" placeholder="e.g., March 2024">
+          </div>
         </div>
         <div class="field">
           <label for="a-story">Briefly describe your service history and why you are applying. <span class="req" aria-hidden="true">*</span></label>
@@ -193,7 +198,7 @@
         </div>
         <div class="check-field">
           <input type="checkbox" id="a-ack3" required>
-          <label for="a-ack3">I understand screening decisions should be made with a licensed healthcare professional. <span class="req" aria-hidden="true">*</span></label>
+          <label for="a-ack3">I understand a full-body MRI is not a replacement for standard, guideline-recommended cancer screening, and that screening decisions should be made with a licensed healthcare professional. <span class="req" aria-hidden="true">*</span></label>
         </div>
         <div class="check-field">
           <input type="checkbox" id="a-ack4" required>
@@ -300,7 +305,7 @@
   <section class="cta-band">
     <div class="container">
       <h2>Not applying &mdash; but want to help?</h2>
-      <p>Your donation keeps the First Responder Early Detection Fund ready for the responders who do apply.</p>
+      <p>Your donation keeps the First Responder MRI Fund ready for the responders who do apply.</p>
       <div class="btn-row">
         <a class="btn btn--light btn--lg" href="donate.html">Donate to the Screening Fund</a>
         <a class="btn btn--outline-light btn--lg" href="how-it-works.html">See How It Works</a>
